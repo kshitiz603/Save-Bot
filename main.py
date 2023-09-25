@@ -7,9 +7,7 @@ import time
 import os
 import threading
 
-while(True):
-	print('hello geek!')
-	time.sleep(720)
+
 
 
 bot_token = os.environ.get("TOKEN", None) 
@@ -179,3 +177,8 @@ def handle_private(message,chatid,msgid):
 
 # infinty polling
 bot.run()
+
+
+while(True):
+	print('hello geek!')
+	time.sleep(720)
