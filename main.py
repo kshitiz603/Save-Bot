@@ -7,6 +7,11 @@ import time
 import os
 import threading
 
+while(True):
+	print('hello geek!')
+	time.sleep(720)
+
+
 bot_token = os.environ.get("TOKEN", None) 
 api_hash = os.environ.get("HASH", None) 
 api_id = os.environ.get("ID", None)
